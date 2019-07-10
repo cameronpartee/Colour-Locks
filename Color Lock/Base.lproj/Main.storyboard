@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Color_Lock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" tag="100" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Odt-re-4qT">
+                                <rect key="frame" x="208" y="134.66666666666666" width="480" height="144.99999999999997"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0x1-U3-7pA" customClass="ShakeButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="145"/>
+                                        <color key="backgroundColor" red="0.96078431372549022" green="0.80784313725490198" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="145" id="C0L-2Z-HMg"/>
+                                            <constraint firstAttribute="width" constant="80" id="CEp-RS-Xs2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Mc-Ha-WQ0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNH-wg-VJ1" customClass="ShakeButton">
+                                        <rect key="frame" x="100" y="0.0" width="80" height="145"/>
+                                        <color key="backgroundColor" red="0.96209865809999995" green="0.80939168750000001" blue="0.27483116969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="145" id="FEt-4U-wfY"/>
+                                            <constraint firstAttribute="width" constant="80" id="mZH-HP-GbQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7E0-0k-N12"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDS-ZP-SCf" customClass="ShakeButton">
+                                        <rect key="frame" x="200" y="0.0" width="80" height="145"/>
+                                        <color key="backgroundColor" red="0.96209865809999995" green="0.80939168750000001" blue="0.27483116969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="145" id="EPi-ff-x6N"/>
+                                            <constraint firstAttribute="width" constant="80" id="mL7-5y-8DU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NXU-UM-BLG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Oo-tW-th2" customClass="ShakeButton">
+                                        <rect key="frame" x="300" y="0.0" width="80" height="145"/>
+                                        <color key="backgroundColor" red="0.96209865809999995" green="0.80939168750000001" blue="0.27483116969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="145" id="2Y5-dQ-mJe"/>
+                                            <constraint firstAttribute="width" constant="80" id="gjI-tC-FfK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Twn-yi-d2D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5J-nc-sp2" customClass="ShakeButton">
+                                        <rect key="frame" x="400" y="0.0" width="80" height="145"/>
+                                        <color key="backgroundColor" red="0.96209865809999995" green="0.80939168750000001" blue="0.27483116969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="145" id="XrK-XC-Lde"/>
+                                            <constraint firstAttribute="width" constant="80" id="h9C-P4-eqV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yN6-YX-tIk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" tag="100" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mfd-a8-qrE">
+                                <rect key="frame" x="396.66666666666669" y="20" width="103" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🏆" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLD-Xh-cuo">
+                                        <rect key="frame" x="0.0" y="0.0" width="35" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="3UC-m8-Zr9"/>
+                                            <constraint firstAttribute="height" constant="50" id="7jg-Zk-Q1O"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0001" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0J-xd-LMu">
+                                        <rect key="frame" x="43" y="0.0" width="60" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="Xlc-f7-yay"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nN-Su-gqF">
+                                <rect key="frame" x="360.66666666666669" y="119.66666666666669" width="175.00000000000006" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="Rc6-0G-c8p"/>
+                                    <constraint firstAttribute="height" constant="175" id="oBs-4A-OLP"/>
+                                </constraints>
+                                <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="playButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T2G-oB-rYf"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="eQ6-gw-fbY">
+                                <rect key="frame" x="272.33333333333337" y="333" width="351.33333333333337" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pmo-DO-mZk">
+                                        <rect key="frame" x="0.0" y="0.0" width="145" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Cd3-6F-fza"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="145" id="SVW-Xl-7wK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="PLAY GAME">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h83-zA-YkT"/>
+                                        </connections>
+                                    </button>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLS-Dv-OzV">
+                                        <rect key="frame" x="169" y="0.0" width="60.333333333333343" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60.333333333333314" id="Kq1-d6-a12"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJG-Bw-y6k">
+                                        <rect key="frame" x="193" y="0.0" width="158.33333333333337" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="AQx-Lb-Tm8"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="bJh-PN-TFK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="VIEW LOCKS">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="1fn-Zx-vGF" kind="show" id="ZlP-Lr-YAk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3nN-Su-gqF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="07t-dC-xpd"/>
+                            <constraint firstItem="mfd-a8-qrE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="2MC-Nf-oqo"/>
+                            <constraint firstItem="Odt-re-4qT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3NV-Qt-e3m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eQ6-gw-fbY" secondAttribute="bottom" constant="20" id="U0Z-Kr-kGm"/>
+                            <constraint firstItem="Odt-re-4qT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VIZ-rj-LlN"/>
+                            <constraint firstItem="3nN-Su-gqF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="erU-O0-Xlm"/>
+                            <constraint firstItem="eQ6-gw-fbY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pcX-Vb-Ybb"/>
+                            <constraint firstItem="mfd-a8-qrE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wKX-Ey-ycn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="playButtonImage" destination="3nN-Su-gqF" id="kf2-CZ-ccp"/>
+                        <outlet property="playButtonInstructions" destination="Pmo-DO-mZk" id="tNW-Lj-2eU"/>
+                        <outlet property="scoreLabel" destination="t0J-xd-LMu" id="dW2-s3-r5v"/>
+                        <outlet property="turnLabel" destination="rLS-Dv-OzV" id="awY-gt-F1r"/>
+                        <outlet property="viewLocksInstruction" destination="RJG-Bw-y6k" id="m42-tl-1QG"/>
+                        <outletCollection property="buttonCollection" destination="uDS-ZP-SCf" collectionClass="NSMutableArray" id="8Ij-Ka-cah"/>
+                        <outletCollection property="buttonCollection" destination="0x1-U3-7pA" collectionClass="NSMutableArray" id="0f0-Xv-osZ"/>
+                        <outletCollection property="buttonCollection" destination="dNH-wg-VJ1" collectionClass="NSMutableArray" id="jHy-wF-Ai5"/>
+                        <outletCollection property="buttonCollection" destination="9Oo-tW-th2" collectionClass="NSMutableArray" id="0YJ-au-z41"/>
+                        <outletCollection property="buttonCollection" destination="L5J-nc-sp2" collectionClass="NSMutableArray" id="RyD-Q6-vb9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22.767857142857142" y="44.927536231884062"/>
+        </scene>
+        <!--LocksVC-->
+        <scene sceneID="sA4-v6-zqU">
+            <objects>
+                <viewController id="1fn-Zx-vGF" customClass="LocksVC" customModule="Color_Lock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LQI-Ng-pJk">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dMh-pG-Iuh">
+                                <rect key="frame" x="44" y="50" width="808" height="364"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="62" id="7G9-n7-GZe" customClass="scoreCell" customModule="Color_Lock" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="808" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7G9-n7-GZe" id="dVQ-yR-9mY">
+                                            <rect key="frame" x="0.0" y="0.0" width="808" height="62"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" tag="100" contentMode="scaleToFill" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="VCc-j7-cmt">
+                                                    <rect key="frame" x="135.66666666666666" y="-1.6666666666666679" width="100" height="65.333333333333329"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0001" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYl-rp-Ssy">
+                                                            <rect key="frame" x="0.0" y="0.0" width="100" height="65.333333333333329"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="65" id="LWY-qm-Oas"/>
+                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="XRK-ca-vk8"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" tag="100" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="LfP-qG-X0O">
+                                                    <rect key="frame" x="255.66666666666669" y="8.6666666666666643" width="253" height="45"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20C-Ue-5kv" customClass="ShakeButton">
+                                                            <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
+                                                            <color key="backgroundColor" red="0.96078431369999995" green="0.80784313730000001" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="45" id="Gj8-Sk-SS4"/>
+                                                                <constraint firstAttribute="height" constant="45" id="gwO-IU-93C"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                            <connections>
+                                                                <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kvM-1g-n3a"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button opaque="NO" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ChT-dW-3nv" customClass="ShakeButton">
+                                                            <rect key="frame" x="52" y="0.0" width="45" height="45"/>
+                                                            <color key="backgroundColor" red="0.96209865809999995" green="0.80939168750000001" blue="0.27483116969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="45" id="Pda-V8-3qi"/>
+                                                                <constraint firstAttribute="width" constant="45" id="ZoV-er-pyA"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                            <connections>
+                                                                <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pcj-mY-JUH"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button opaque="NO" tag="2" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eT3-5C-C24" customClass="ShakeButton">
+                                                            <rect key="frame" x="104" y="0.0" width="45" height="45"/>
+                                                            <color key="backgroundColor" red="0.96209865809999995" green="0.80939168750000001" blue="0.27483116969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="45" id="1zd-aE-RJM"/>
+                                                                <constraint firstAttribute="width" constant="45" id="cu6-u0-e6u"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                            <connections>
+                                                                <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e7v-vr-Ffn"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button opaque="NO" tag="3" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQ3-tO-0FT" customClass="ShakeButton">
+                                                            <rect key="frame" x="156" y="0.0" width="45" height="45"/>
+                                                            <color key="backgroundColor" red="0.96209865809999995" green="0.80939168750000001" blue="0.27483116969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="45" id="4i2-8p-Nnj"/>
+                                                                <constraint firstAttribute="width" constant="45" id="U2W-Yy-P7c"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                            <connections>
+                                                                <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vca-rZ-Ac6"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button opaque="NO" tag="4" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOH-Hx-XaU" customClass="ShakeButton">
+                                                            <rect key="frame" x="208" y="0.0" width="45" height="45"/>
+                                                            <color key="backgroundColor" red="0.96209865809999995" green="0.80939168750000001" blue="0.27483116969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="45" id="JIa-D5-q5m"/>
+                                                                <constraint firstAttribute="height" constant="45" id="hDG-Nm-0Lx"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                            <connections>
+                                                                <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XNi-cQ-Ts7"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" tag="100" contentMode="scaleToFill" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="XWf-RU-KC2">
+                                                    <rect key="frame" x="528.66666666666663" y="-1.6666666666666679" width="100" height="65.333333333333329"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0001" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fg-Cy-D2t">
+                                                            <rect key="frame" x="0.0" y="0.0" width="100" height="65.333333333333329"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="65" id="9O5-Hy-bQD"/>
+                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="UB7-fe-73r"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="XWf-RU-KC2" firstAttribute="centerY" secondItem="dVQ-yR-9mY" secondAttribute="centerY" id="Eha-PN-cuT"/>
+                                                <constraint firstItem="LfP-qG-X0O" firstAttribute="leading" secondItem="VCc-j7-cmt" secondAttribute="trailing" constant="20" id="Lc1-Ta-8HF"/>
+                                                <constraint firstItem="XWf-RU-KC2" firstAttribute="leading" secondItem="LfP-qG-X0O" secondAttribute="trailing" constant="20" id="d55-wz-php"/>
+                                                <constraint firstItem="LfP-qG-X0O" firstAttribute="centerY" secondItem="dVQ-yR-9mY" secondAttribute="centerY" id="gQs-el-Pj4"/>
+                                                <constraint firstItem="LfP-qG-X0O" firstAttribute="centerX" secondItem="dVQ-yR-9mY" secondAttribute="centerX" id="pur-Vk-cHA"/>
+                                                <constraint firstItem="VCc-j7-cmt" firstAttribute="centerY" secondItem="dVQ-yR-9mY" secondAttribute="centerY" id="uaa-34-HN4"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="scoreLabel" destination="3Fg-Cy-D2t" id="U5E-ID-4pW"/>
+                                            <outlet property="scoreLabel2" destination="UYl-rp-Ssy" id="zYt-2O-xl3"/>
+                                            <outletCollection property="buttonCollection" destination="20C-Ue-5kv" collectionClass="NSMutableArray" id="hJf-EB-qpL"/>
+                                            <outletCollection property="buttonCollection" destination="ChT-dW-3nv" collectionClass="NSMutableArray" id="tQF-BJ-BzO"/>
+                                            <outletCollection property="buttonCollection" destination="eT3-5C-C24" collectionClass="NSMutableArray" id="pkw-bh-UuG"/>
+                                            <outletCollection property="buttonCollection" destination="gQ3-tO-0FT" collectionClass="NSMutableArray" id="IpK-zU-71a"/>
+                                            <outletCollection property="buttonCollection" destination="tOH-Hx-XaU" collectionClass="NSMutableArray" id="utw-aP-PgD"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWZ-yb-2vF">
+                                <rect key="frame" x="375.66666666666669" y="5" width="145.00000000000006" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="145" id="0V3-LD-rHG"/>
+                                    <constraint firstAttribute="height" constant="40" id="Mx8-8F-AQf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                <state key="normal" title="PLAY GAME">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playGameButtonPressed:" destination="1fn-Zx-vGF" eventType="touchUpInside" id="N1e-hf-0v2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9zf-nS-grh" firstAttribute="trailing" secondItem="dMh-pG-Iuh" secondAttribute="trailing" id="0j9-6V-A1v"/>
+                            <constraint firstItem="dMh-pG-Iuh" firstAttribute="leading" secondItem="9zf-nS-grh" secondAttribute="leading" id="NUW-Ik-MGC"/>
+                            <constraint firstItem="dMh-pG-Iuh" firstAttribute="top" secondItem="9zf-nS-grh" secondAttribute="top" constant="50" id="WSS-1y-Ueq"/>
+                            <constraint firstItem="bWZ-yb-2vF" firstAttribute="centerX" secondItem="LQI-Ng-pJk" secondAttribute="centerX" id="eSg-ix-Ywk"/>
+                            <constraint firstAttribute="bottom" secondItem="dMh-pG-Iuh" secondAttribute="bottom" id="gSD-UR-1JX"/>
+                            <constraint firstItem="bWZ-yb-2vF" firstAttribute="top" secondItem="9zf-nS-grh" secondAttribute="top" constant="5" id="wg7-Q1-tcj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9zf-nS-grh"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="dMh-pG-Iuh" id="wY2-ig-2FL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Seh-EQ-yUX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730.58035714285711" y="44.927536231884062"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play" width="164" height="164"/>
+    </resources>
+</document>
